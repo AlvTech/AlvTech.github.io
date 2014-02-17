@@ -4,21 +4,38 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Alv Project</title>
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="apple-touch-icon" href="favicon.png">
     <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Quattrocento+Sans">
-    <link rel="stylesheet" href="lib/normalize-css/normalize.css" />
-    <link rel="stylesheet" href="app.css" />
+    <link rel="stylesheet" href="app.min.css" />
   </head>
   <body>
-
+  <nav>
+    <ul>
+      <li id="connect"><a href="mailto:connect@alvproject.com">Connect</a></li>
+      <li id="about">About</li>
+    </ul>
+  </nav>
   <brand>
-    Ä l v&nbsp;&nbsp;&nbsp;&nbsp;P r o j e c t
+    <name>
+      Ä l v&nbsp;&nbsp;&nbsp;&nbsp;P r o j e c t
+    </name>
+    <message>
+    <p>Alv is a fashion and design distribution house offering integrated business solutions specialising in wholesale, sales, communication and brand development. We give brands an international presence by partnering with eminent retailers around the globe.</p>
+    <p>From emerging talents to renowned labels, we pride ourselves on provisioning our clients with bespoke services, strategic planning and adept advice.</p>
+    </message>
   </brand>
 
     <script>
-      function transitions() {
+      function init() {
         document.querySelector("body").classList.add("active");
+        var about = document.querySelector("#about");
+        about.onclick = showAbout;
       }
-      window.onload = transitions;
+      function showAbout() {
+        document.querySelector("body").classList.add("page-view");
+      }
+      window.onload = init;
     </script>
 
   </body>
