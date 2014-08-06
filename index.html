@@ -7,23 +7,44 @@
     <link rel="shortcut icon" href="favicon.ico">
     <link rel="apple-touch-icon" href="favicon.png">
     <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Quattrocento+Sans">
-    <link rel="stylesheet" href="app.min.css" />
+    <link rel="stylesheet" href="lib/normalize-css/normalize.css" />
+    <link rel="stylesheet" href="build/css/app.css" />
   </head>
   <body>
   <nav>
     <ul>
-      <li id="connect"><a href="mailto:connect@alvproject.com">Connect</a></li>
+      <li id="connect">Connect</li>
       <li id="about">About</li>
     </ul>
   </nav>
   <brand>
-    <name>
+    <name id="name">
       Ä l v&nbsp;&nbsp;&nbsp;&nbsp;P r o j e c t
     </name>
     <message>
     <p>Alv is a fashion and design distribution house offering integrated business solutions specialising in wholesale, sales, communication and brand development. We give brands an international presence by partnering with eminent retailers around the globe.</p>
     <p>From emerging talents to renowned labels, we pride ourselves on provisioning our clients with bespoke services, strategic planning and adept advice.</p>
     </message>
+    <connect>
+      <form method='POST' action="http://forms.brace.io/connect@alvproject.com">
+        <div>
+          <label for="name">Name</label>
+          <input type="text" name="name" id="name" value="" placeholer="Your Name" required/>
+        </div>
+        <div>
+          <label for="email">Email</label>
+          <input type="email" name="_replyto" id="email" value="" placeholer="yourname@yourcompany.com" required />
+        </div>
+        <div>
+          <label for="message">Message</label>
+          <textarea name="message" cols="40" rows="10" id="message" value="" required></textarea>
+        </div>
+        <input type="hidden" name="_next" value="http://alch.local/index.html" />
+        <div class="right">
+          <button type="submit" class="btn primary">Submit</button>
+        </div>
+      </form>
+    </connect>
   </brand>
 
     <script>
@@ -31,9 +52,22 @@
         document.querySelector("body").classList.add("active");
         var about = document.querySelector("#about");
         about.onclick = showAbout;
+        var connect = document.querySelector("#connect");
+        connect.onclick = showConnect;
+        var name = document.querySelector("#name");
+        name.onclick = hideAll;
       }
       function showAbout() {
+        document.querySelector("body").classList.remove("page-connect");
         document.querySelector("body").classList.add("page-view");
+      }
+      function showConnect() {
+        document.querySelector("body").classList.remove("page-view");
+        document.querySelector("body").classList.add("page-connect");
+      }
+      function hideAll() {
+        document.querySelector("body").classList.remove("page-view");
+        document.querySelector("body").classList.remove("page-connect");
       }
       window.onload = init;
     </script>
