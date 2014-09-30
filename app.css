@@ -1,0 +1,92 @@
+html {
+  font-family: "Quattrocento Sans", Helvetica, Arial, sans-serif;
+  font-size: 100%;
+  color: #121212; }
+
+button, input[type=submit] {
+  font-family: Sans-Serif;
+  font-size: 16px;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  vertical-align: middle;
+  white-space: nowrap;
+  color: #121212;
+  border: 2px solid #121212;
+  border-radius: 2px;
+  background-color: #fff;
+  appearance: none;
+  padding: 10px; }
+
+input, label, textarea {
+  font-family: Sans-Serif;
+  font-size: 16px;
+  display: block; }
+
+label {
+  margin-bottom: 2px; }
+
+input, textarea {
+  margin-bottom: 15px;
+  border: 1px solid #121212;
+  border-radius: 2px;
+  background-color: #fff;
+  padding: 6px; }
+
+input:focus, textarea:focus {
+  outline: 0; }
+
+textarea {
+  resize: vertical; }
+
+html, body {
+  height: 100%; }
+
+body {
+  margin: 0 20%; }
+
+.page-connect brand name, .page-view brand name {
+  font-size: 2rem;
+  padding-top: 0; }
+
+.page-connect connect, .page-view message > p {
+  opacity: 1;
+  display: block; }
+
+brand {
+  height: 85%; }
+  brand > name {
+    -webkit-transition: 0.3s;
+            transition: 0.3s;
+    font-size: 8vmax;
+    display: block;
+    padding-top: 20%; }
+  brand > message {
+    font-size: 1.5rem; }
+    brand > message > p {
+      -webkit-transition: 0.3s;
+              transition: 0.3s;
+      opacity: 0;
+      display: none; }
+  brand > connect {
+    -webkit-transition: 0.3s;
+            transition: 0.3s;
+    opacity: 0;
+    display: none;
+    margin: 25px 0; }
+
+nav {
+  height: 15%;
+  padding-top: 20px; }
+  nav ul {
+    list-style: none; }
+    nav ul > li, nav ul a {
+      float: right;
+      color: #121212;
+      text-decoration: none;
+      cursor: pointer; }
+    nav ul > li:not(last-child) {
+      margin-left: 5%; }
+/*# sourceMappingURL=app.css.map */

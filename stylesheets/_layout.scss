@@ -1,0 +1,66 @@
+//
+// Main
+// --------------------------------------------------
+
+html, body {
+	height: 100%;
+}
+
+body {
+	margin: 0 20%;
+}
+
+.page-connect,
+.page-view {
+	brand name {
+			font-size: 2rem;
+			padding-top: 0;
+		}
+}
+
+.page-connect connect,
+.page-view message > p {
+  opacity: 1;
+  display: block;
+}
+
+brand {
+	height: 85%;
+	> name {
+		transition: .3s;
+		font-size: 8vmax;
+		display: block;
+		padding-top: 20%;
+	}
+	> message {
+		font-size: 1.5rem;
+		> p {
+			transition: .3s;
+			opacity: 0;
+			display: none;
+		}
+	}
+  > connect {
+    transition: .3s;
+    opacity: 0;
+    display: none;
+    margin:25px 0;
+  }
+}
+
+nav {
+	height: 15%;
+	padding-top: 20px;
+	ul {
+		list-style: none;
+		> li, a {
+			float: right;
+			color: $black;
+			text-decoration: none;
+			cursor: pointer;
+		}
+		> li:not(last-child) {
+			margin-left: 5%;
+		}
+	}
+}
