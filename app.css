@@ -47,11 +47,11 @@ html, body {
 body {
   margin: 0 20%; }
 
-.page-connect brand name, .page-view brand name {
+.page-connect brand name, .page-mission brand name, .page-about brand name {
   font-size: 2rem;
   padding-top: 0; }
 
-.page-connect connect, .page-view message > p {
+.page-connect connect, .page-mission mission > p, .page-about message > p {
   opacity: 1;
   display: block; }
 
@@ -63,9 +63,9 @@ brand {
     font-size: 8vmax;
     display: block;
     padding-top: 20%; }
-  brand > message {
+  brand > message, brand mission {
     font-size: 1.5rem; }
-    brand > message > p {
+    brand > message > p, brand mission > p {
       -webkit-transition: 0.3s;
               transition: 0.3s;
       opacity: 0;
@@ -81,9 +81,16 @@ nav {
   height: 15%;
   padding-top: 20px; }
   nav ul {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+    -webkit-justify-content: flex-end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
     list-style: none; }
     nav ul > li, nav ul a {
-      float: right;
       color: #121212;
       text-decoration: none;
       cursor: pointer; }
