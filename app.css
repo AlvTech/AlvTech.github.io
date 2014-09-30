@@ -63,7 +63,6 @@ brand {
   brand > name {
     -webkit-transition: 0.3s;
             transition: 0.3s;
-    text-align: center;
     font-size: 8vmax;
     display: block;
     padding-top: 20%; }
