@@ -14,9 +14,12 @@ body {
 .page-mission,
 .page-about {
 	brand name {
-			font-size: 2rem;
-			padding-top: 0;
-      cursor: pointer;
+				font-size: 2rem;
+				padding-top: 0;
+      	cursor: pointer;
+				info {
+					display: none;
+				}
 		}
 }
 
@@ -31,9 +34,13 @@ brand {
 	height: 85%;
 	> name {
 		transition: .3s;
+		text-align: center;
 		font-size: 8vmax;
 		display: block;
 		padding-top: 20%;
+		info {
+			font-size: 3vmax;
+		}
 	}
 	> message,
     mission {

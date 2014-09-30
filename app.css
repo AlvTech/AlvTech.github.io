@@ -51,6 +51,8 @@ body {
   font-size: 2rem;
   padding-top: 0;
   cursor: pointer; }
+  .page-connect brand name info, .page-mission brand name info, .page-about brand name info {
+    display: none; }
 
 .page-connect connect, .page-mission mission > p, .page-about message > p {
   opacity: 1;
@@ -61,9 +63,12 @@ brand {
   brand > name {
     -webkit-transition: 0.3s;
             transition: 0.3s;
+    text-align: center;
     font-size: 8vmax;
     display: block;
     padding-top: 20%; }
+    brand > name info {
+      font-size: 3vmax; }
   brand > message, brand mission {
     font-size: 1.5rem; }
     brand > message > p, brand mission > p {
