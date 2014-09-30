@@ -49,7 +49,8 @@ body {
 
 .page-connect brand name, .page-mission brand name, .page-about brand name {
   font-size: 2rem;
-  padding-top: 0; }
+  padding-top: 0;
+  cursor: pointer; }
 
 .page-connect connect, .page-mission mission > p, .page-about message > p {
   opacity: 1;
