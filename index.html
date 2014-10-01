@@ -14,6 +14,7 @@
     <ul>
       <li id="about">About</li>
       <li id="mission">Mission</li>
+      <li id="agency">Agency</li>
       <li id="connect">Connect</li>
     </ul>
   </nav>
@@ -79,7 +80,7 @@
         about.onclick = showAbout;
         var mission = document.querySelector("#mission");
         mission.onclick = showMission;
-        var agency = document.querySelector("agency");
+        var agency = document.querySelector("#agency");
         agency.onclick = showAgency;
         var connect = document.querySelector("#connect");
         connect.onclick = showConnect;
@@ -93,7 +94,7 @@
         document.querySelector("body").className = "page-mission";
       }
       function showAgency()  {
-        document.querySelector("agency").className = "page-agency";
+        document.querySelector("body").className = "page-agency";
       }
       function showConnect() {
         document.querySelector("body").className = "page-connect";
