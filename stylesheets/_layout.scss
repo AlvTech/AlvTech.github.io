@@ -11,6 +11,7 @@ body {
 }
 
 .page-connect,
+.page-agency,
 .page-mission,
 .page-about {
 	brand name {
@@ -24,31 +25,34 @@ body {
 }
 
 .page-connect connect,
+.page-agency agency > p
 .page-mission mission > p,
 .page-about message > p {
   opacity: 1;
   display: block;
 }
 
+agency > p
+mission > p,
+message > p {
+	transition: .3s;
+	opacity: 0;
+	display: none;
+}
+
+p {
+	font-size: 1.5rem;
+}
+
 brand {
 	height: 85%;
 	> name {
 		transition: .3s;
-		text-align: center;
 		font-size: 8vmax;
 		display: block;
 		padding-top: 20%;
 		info {
 			font-size: 3vmax;
-		}
-	}
-	> message,
-    mission {
-		font-size: 1.5rem;
-		> p {
-			transition: .3s;
-			opacity: 0;
-			display: none;
 		}
 	}
   > connect {

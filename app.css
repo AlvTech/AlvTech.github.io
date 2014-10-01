@@ -51,12 +51,21 @@ body {
   font-size: 2rem;
   padding-top: 0;
   cursor: pointer; }
-  .page-connect brand name info, .page-agency brand name, .page-mission brand name info, .page-about brand name info {
+  .page-connect brand name info, .page-agency brand name info, .page-mission brand name info, .page-about brand name info {
     display: none; }
 
-.page-connect connect, .page-agency agency > p, .page-mission mission > p, .page-about message > p {
+.page-connect connect, .page-agency agency > p .page-mission mission > p, .page-about message > p {
   opacity: 1;
   display: block; }
+
+agency > p mission > p, message > p {
+  -webkit-transition: 0.3s;
+          transition: 0.3s;
+  opacity: 0;
+  display: none; }
+
+p {
+  font-size: 1.5rem; }
 
 brand {
   height: 85%; }
@@ -68,13 +77,6 @@ brand {
     padding-top: 20%; }
     brand > name info {
       font-size: 3vmax; }
-  brand > message, brand mission {
-    font-size: 1.5rem; }
-    brand > message > p, brand mission > p {
-      -webkit-transition: 0.3s;
-              transition: 0.3s;
-      opacity: 0;
-      display: none; }
   brand > connect {
     -webkit-transition: 0.3s;
             transition: 0.3s;
