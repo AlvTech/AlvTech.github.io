@@ -25,14 +25,14 @@ body {
 }
 
 .page-connect connect,
-.page-agency agency > p
+.page-agency agency > p,
 .page-mission mission > p,
 .page-about message > p {
   opacity: 1;
   display: block;
 }
 
-agency > p
+agency > p,
 mission > p,
 message > p {
 	transition: .3s;

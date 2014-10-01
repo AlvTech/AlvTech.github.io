@@ -54,11 +54,11 @@ body {
   .page-connect brand name info, .page-agency brand name info, .page-mission brand name info, .page-about brand name info {
     display: none; }
 
-.page-connect connect, .page-agency agency > p .page-mission mission > p, .page-about message > p {
+.page-connect connect, .page-agency agency > p, .page-mission mission > p, .page-about message > p {
   opacity: 1;
   display: block; }
 
-agency > p mission > p, message > p {
+agency > p, mission > p, message > p {
   -webkit-transition: 0.3s;
           transition: 0.3s;
   opacity: 0;
