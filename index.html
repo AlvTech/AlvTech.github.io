@@ -41,6 +41,16 @@
       <p>The intent is to produce artistic concoctions that reach and attain sophisticated
         levels of aesthetics, delivering exciting new designs to the market.</p>
     </mission>
+    <agency>
+      <p>Älv provides integrated business solutions for fashion and design brands, offering services 
+      in brand development, positioning, communication, distribution and retail.</p>
+      <p>With our team’s expertise and experience, we evaluate new markets, strategise market entry and devise 
+      plans for global expansion. From partnering with eminent retailers worldwide, finding the right distributer 
+      to conceiving exhibitions and presenting trade shows, our hands-on approach help brands with all aspects of 
+      retail planning.</p>
+      <p>Based in London and New Delhi, we represent forward-thinking brands and cater to their needs with tailored 
+      services, strategic planning, technical support and in-depth advice.</p>
+    </agency>
     <connect>
       <form method='POST' action="http://forms.brace.io/connect@alvproject.com">
         <div>
@@ -69,6 +79,8 @@
         about.onclick = showAbout;
         var mission = document.querySelector("#mission");
         mission.onclick = showMission;
+        var agency = document.querySelector("agency");
+        agency.onclick = showAgency;
         var connect = document.querySelector("#connect");
         connect.onclick = showConnect;
         var name = document.querySelector("#name");
@@ -79,6 +91,9 @@
       }
       function showMission() {
         document.querySelector("body").className = "page-mission";
+      }
+      function showAgency()  {
+        document.queryselector("agency").className = "page-agency";
       }
       function showConnect() {
         document.querySelector("body").className = "page-connect";
