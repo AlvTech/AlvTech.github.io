@@ -47,14 +47,14 @@ html, body {
 body {
   margin: 0 20%; }
 
-.page-connect brand name, .page-mission brand name, .page-about brand name {
+.page-connect brand name, .page-agency brand name, .page-mission brand name, .page-about brand name {
   font-size: 2rem;
   padding-top: 0;
   cursor: pointer; }
-  .page-connect brand name info, .page-mission brand name info, .page-about brand name info {
+  .page-connect brand name info, .page-agency brand name, .page-mission brand name info, .page-about brand name info {
     display: none; }
 
-.page-connect connect, .page-mission mission > p, .page-about message > p {
+.page-connect connect, .page-agency agency > p, .page-mission mission > p, .page-about message > p {
   opacity: 1;
   display: block; }
 
