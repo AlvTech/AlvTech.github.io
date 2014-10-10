@@ -13,8 +13,6 @@
   <nav>
     <ul>
       <li id="about">About</li>
-      <li id="mission">Mission</li>
-      <li id="agency">Agency</li>
       <li id="connect">Connect</li>
     </ul>
   </nav>
@@ -23,26 +21,6 @@
       Ä l v&nbsp;&nbsp;&nbsp;&nbsp;P r o j e c t
     </name>
     <message>
-      <p>Älv Project is a curated retail platform that creates innovative conceptual
-        spaces purveying jewellery, ready-to-wear and accessories.</p>
-      <p>Our concept stems from a view of retail as an expression of art, experimental
-        in nature and ever evolving with the times.</p>
-      <p>With the vision of building intercultural communication and a purpose
-        to initiate intercountry dialogue, we conceive informative pop-up galleries
-        in various cities to exhibit visionary designers portraying distinctive cultural characteristics.</p>
-      <p>Laid out in discerning settings we organize vis-à-vis with trade experts, concocting enagaging
-      milieu with fine brands that illustrate ingenuity in design and dexterity in craft.</p>
-    </message>
-    <mission>
-      <p>We aim to promote multiculturalism. Fashion and design as tools of cultural
-        exchange bring the world closer by promoting sociocultural sharing and understanding,
-        which is what Älv Project is set to do.</p>
-      <p>Through fostering industry collaborations, we form cross-cultural relationships
-        between designers from distinct native or artistic backgrounds to create a métissage.</p>
-      <p>The intent is to produce artistic concoctions that reach and attain sophisticated
-        levels of aesthetics, delivering exciting new designs to the market.</p>
-    </mission>
-    <agency>
       <p>Älv provides integrated business solutions for fashion and design brands, offering services
       in brand development, positioning, communication, distribution and retail.</p>
       <p>With our team’s expertise and experience, we evaluate new markets, strategise market entry and devise
@@ -51,7 +29,7 @@
       retail planning.</p>
       <p>Based in London and New Delhi, we represent forward-thinking brands and cater to their needs with tailored
       services, strategic planning, technical support and in-depth advice.</p>
-    </agency>
+    </message>
     <connect>
       <form method='POST' action="http://forms.brace.io/connect@alvproject.com">
         <div>
@@ -78,10 +56,6 @@
       function init() {
         var about = document.querySelector("#about");
         about.onclick = showAbout;
-        var mission = document.querySelector("#mission");
-        mission.onclick = showMission;
-        var agency = document.querySelector("#agency");
-        agency.onclick = showAgency;
         var connect = document.querySelector("#connect");
         connect.onclick = showConnect;
         var name = document.querySelector("#name");
@@ -89,12 +63,6 @@
       }
       function showAbout() {
         document.querySelector("body").className = "page-about";
-      }
-      function showMission() {
-        document.querySelector("body").className = "page-mission";
-      }
-      function showAgency()  {
-        document.querySelector("body").className = "page-agency";
       }
       function showConnect() {
         document.querySelector("body").className = "page-connect";
