@@ -1,8 +1,0 @@
-deploy:
-  provider: releases
-  api-key: "GITHUB OAUTH TOKEN"
-  file: "FILE TO UPLOAD"
-  skip_cleanup: true
-  on:
-    tags: true
-    all_branches: true
