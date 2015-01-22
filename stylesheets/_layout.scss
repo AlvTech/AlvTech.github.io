@@ -11,8 +11,7 @@ body {
 }
 
 .page-connect,
-.page-agency,
-.page-mission,
+.page-services,
 .page-about {
 	brand name {
 				font-size: 2rem;
@@ -25,15 +24,13 @@ body {
 }
 
 .page-connect connect,
-.page-agency agency > p,
-.page-mission mission > p,
+.page-services services > p,
 .page-about message > p {
   opacity: 1;
   display: block;
 }
 
-agency > p,
-mission > p,
+services > p,
 message > p {
 	transition: .3s;
 	opacity: 0;
@@ -67,8 +64,8 @@ nav {
 	height: 15%;
 	padding-top: 20px;
 	ul {
-    display: flex;
-    justify-content: flex-end;
+    		display: flex;
+    		justify-content: flex-end;
 		list-style: none;
 		> li, a {
 			color: $black;
