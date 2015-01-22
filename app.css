@@ -1,11 +1,12 @@
 html {
+  background: #e6e6e6;
   color: #121212;
   font-family: "Quattrocento Sans", Helvetica, Arial, sans-serif;
   font-size: 100%; }
 
 button, input[type=submit] {
   appearance: none;
-  background-color: #a1a1a1;
+  background-color: #e6e6e6;
   border: 2px solid #121212;
   border-radius: 2px;
   color: #121212;
@@ -29,7 +30,7 @@ label {
   margin-bottom: 2px; }
 
 input, textarea {
-  background-color: #a1a1a1;
+  background-color: #e6e6e6;
   border: 1px solid #121212;
   border-radius: 2px;
   margin-bottom: 15px;
@@ -65,7 +66,7 @@ services, message {
           transition: .3s; }
 
 p {
-  font-size: 1.5rem; }
+  font-size: 1.3rem; }
 
 brand {
   height: 85%; }
