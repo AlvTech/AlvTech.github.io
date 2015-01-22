@@ -1,9 +1,9 @@
 input,
 label,
 textarea {
-font-family: Sans-Serif;
-font-size: 16px;
-display: block;
+  display: block;
+  font-family: Sans-Serif;
+  font-size: 16px;
 }
 
 label {
@@ -12,18 +12,18 @@ label {
 
 input,
 textarea {
-margin-bottom: 15px;
-border: 1px solid $black;
-border-radius: 2px;
-background-color: $white;
-padding: 6px;
+  background-color: $white;
+  border: 1px solid $black;
+  border-radius: 2px;
+  margin-bottom: 15px;
+  padding: 6px;
 }
 
 input:focus,
 textarea:focus {
-outline: 0;
+  outline: 0;
 }
 
 textarea {
-resize:vertical;
+  resize: vertical;
 }

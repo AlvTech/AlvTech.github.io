@@ -2,78 +2,87 @@
 // Main
 // --------------------------------------------------
 
-html, body {
-	height: 100%;
+html,
+body {
+  height: 100%;
 }
 
 body {
-	margin: 0 20%;
+  margin: 0 20%;
 }
 
 .page-connect,
 .page-services,
 .page-about {
-	brand name {
-				font-size: 2rem;
-				padding-top: 0;
-      	cursor: pointer;
-				info {
-					display: none;
-				}
+  brand name {
+    cursor: pointer;
+    font-size: 2rem;
+    padding-top: 0;
+
+    info {
+      display: none;
 		}
+	}
 }
 
 .page-connect connect,
-.page-services services > p,
-.page-about message > p {
-  opacity: 1;
+.page-services services,
+.page-about message {
   display: block;
+  opacity: 1;
 }
 
-services > p,
-message > p {
-	transition: .3s;
-	opacity: 0;
-	display: none;
+services,
+message {
+  display: none;
+  opacity: 0;
+  transition: .3s;
 }
 
 p {
-	font-size: 1.5rem;
+  font-size: 1.5rem;
 }
 
 brand {
-	height: 85%;
-	> name {
-		transition: .3s;
-		font-size: 8vmax;
-		display: block;
-		padding-top: 20%;
-		info {
-			font-size: 3vmax;
+  height: 85%;
+
+  > name {
+    display: block;
+    font-size: 8vmax;
+    padding-top: 20%;
+    transition: .3s;
+
+    info {
+      font-size: 3vmax;
 		}
 	}
+
   > connect {
-    transition: .3s;
-    opacity: 0;
     display: none;
-    margin:25px 0;
+    margin: 25px 0;
+    opacity: 0;
+    transition: .3s;
   }
 }
 
 nav {
-	height: 15%;
-	padding-top: 20px;
-	ul {
-    		display: flex;
-    		justify-content: flex-end;
-		list-style: none;
-		> li, a {
-			color: $black;
-			text-decoration: none;
-			cursor: pointer;
+  height: 15%;
+  padding-top: 20px;
+
+  ul {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+
+    > li,
+		  a {
+      color: $black;
+      cursor: pointer;
+      text-decoration: none;
 		}
-		> li:not(last-child) {
-			margin-left: 5%;
+
+    > li:not(last-child) {
+      margin-left: 5%;
 		}
 	}
 }

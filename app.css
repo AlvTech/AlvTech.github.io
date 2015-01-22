@@ -1,38 +1,38 @@
 html {
+  color: #121212;
   font-family: "Quattrocento Sans", Helvetica, Arial, sans-serif;
-  font-size: 100%;
-  color: #121212; }
+  font-size: 100%; }
 
 button, input[type=submit] {
+  appearance: none;
+  background-color: #fff;
+  border: 2px solid #121212;
+  border-radius: 2px;
+  color: #121212;
+  cursor: pointer;
   font-family: Sans-Serif;
   font-size: 16px;
-  cursor: pointer;
+  padding: 10px;
   -webkit-user-select: none;
      -moz-user-select: none;
       -ms-user-select: none;
           user-select: none;
   vertical-align: middle;
-  white-space: nowrap;
-  color: #121212;
-  border: 2px solid #121212;
-  border-radius: 2px;
-  background-color: #fff;
-  appearance: none;
-  padding: 10px; }
+  white-space: nowrap; }
 
 input, label, textarea {
+  display: block;
   font-family: Sans-Serif;
-  font-size: 16px;
-  display: block; }
+  font-size: 16px; }
 
 label {
   margin-bottom: 2px; }
 
 input, textarea {
-  margin-bottom: 15px;
+  background-color: #fff;
   border: 1px solid #121212;
   border-radius: 2px;
-  background-color: #fff;
+  margin-bottom: 15px;
   padding: 6px; }
 
 input:focus, textarea:focus {
@@ -47,22 +47,22 @@ html, body {
 body {
   margin: 0 20%; }
 
-.page-connect brand name, .page-agency brand name, .page-mission brand name, .page-about brand name {
+.page-connect brand name, .page-services brand name, .page-about brand name {
+  cursor: pointer;
   font-size: 2rem;
-  padding-top: 0;
-  cursor: pointer; }
-  .page-connect brand name info, .page-agency brand name info, .page-mission brand name info, .page-about brand name info {
+  padding-top: 0; }
+  .page-connect brand name info, .page-services brand name info, .page-about brand name info {
     display: none; }
 
-.page-connect connect, .page-agency agency > p, .page-mission mission > p, .page-about message > p {
-  opacity: 1;
-  display: block; }
+.page-connect connect, .page-services services, .page-about message {
+  display: block;
+  opacity: 1; }
 
-agency > p, mission > p, message > p {
-  -webkit-transition: 0.3s;
-          transition: 0.3s;
+services, message {
+  display: none;
   opacity: 0;
-  display: none; }
+  -webkit-transition: .3s;
+          transition: .3s; }
 
 p {
   font-size: 1.5rem; }
@@ -70,19 +70,19 @@ p {
 brand {
   height: 85%; }
   brand > name {
-    -webkit-transition: 0.3s;
-            transition: 0.3s;
-    font-size: 8vmax;
     display: block;
-    padding-top: 20%; }
+    font-size: 8vmax;
+    padding-top: 20%;
+    -webkit-transition: .3s;
+            transition: .3s; }
     brand > name info {
       font-size: 3vmax; }
   brand > connect {
-    -webkit-transition: 0.3s;
-            transition: 0.3s;
-    opacity: 0;
     display: none;
-    margin: 25px 0; }
+    margin: 25px 0;
+    opacity: 0;
+    -webkit-transition: .3s;
+            transition: .3s; }
 
 nav {
   height: 15%;
@@ -99,8 +99,8 @@ nav {
     list-style: none; }
     nav ul > li, nav ul a {
       color: #121212;
-      text-decoration: none;
-      cursor: pointer; }
+      cursor: pointer;
+      text-decoration: none; }
     nav ul > li:not(last-child) {
       margin-left: 5%; }
 /*# sourceMappingURL=app.css.map */
