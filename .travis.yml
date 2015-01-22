@@ -8,5 +8,7 @@ deploy:
   api_key:
     secure: aLZ3iCf+CFyVhSL9E1sEDvBQSeXjzsi28uBqzG+/HgDuiqZx3BS+xAXAosFPUOxh6O7R1K1WXnPSnJEni6Z8k3NKhMNMv6hiS7Vlx0wQyGrgYB+3O4ZiHjrVjdcm0PjlQY9ifFSxWrqDXHvek3EyV1e62XkiI5KUdsUCRukWkg4=
   file: app.css
+  skip_cleanup: true
   on:
-    repo: AlvTech/AlvTech.github.io
+    tags: true
+    all_branches: true
