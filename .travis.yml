@@ -2,7 +2,9 @@ language: node_js
 node_js:
   - "0.10"
 script: gulp
-after_success: ./deploy.sh
+after_success:
+  - chmod +x deploy.sh
+  - ./deploy.sh
 
 env:
   global:
