@@ -1,10 +1,15 @@
 language: node_js
 node_js:
 - '0.10'
+before_script:
+  - git config --global user.email "chikara.aditya@gmail.com"
+  - git config --global user.name "adi-ads"
 script: gulp
 after_success:
-- chmod +x deploy.sh
-- "./deploy.sh"
+  - chmod +x deploy.sh
+  - git config credential.helper "store --file=.git/credentials"
+  - echo "https://${GH_TOKEN}:@github.com" > .git/credentials
+  - "./deploy.sh"
 env:
   global:
     secure: JpvA+XZaOaZQR2Kei4jSpsU2HW63OqtyYxUD0ZMA2QaU1t23m4o0u6hEGZyZC2NchCZK+Dag7J8OZ7qTEqwYA2DRSJ9mtq0kktdZ3I2ruX6IpkMxDqDPK7Fe1UpNQJzLbrvZW4yAU54RD/kBxe6UT0Z/c/x+GlbpoHt9RUCkiKw=
