@@ -55,7 +55,7 @@ body {
   .page-connect brand name info, .page-clients brand name info, .page-services brand name info, .page-about brand name info {
     display: none; }
 
-.page-connect connect, .page-clients connect, .page-services services, .page-about message {
+.page-connect connect, .page-clients clients, .page-services services, .page-about message {
   display: block;
   opacity: 1; }
 
