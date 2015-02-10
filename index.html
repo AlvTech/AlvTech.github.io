@@ -14,7 +14,6 @@
     <ul>
       <li id="about">About</li>
       <li id="services">Services</li>
-      <li id="clients">Clients</li>
       <li id="connect">Connect</li>
     </ul>
   </nav>
@@ -82,8 +81,6 @@
         about.onclick = showAbout;
         var services = document.querySelector("#services");
         services.onclick = showServices;
-        var clients = document.querySelector("#clients");
-        clients.onclick = showClients;
         var connect = document.querySelector("#connect");
         connect.onclick = showConnect;
         var name = document.querySelector("#name");
@@ -94,9 +91,6 @@
       }
       function showServices() {
         document.querySelector("body").className = "page-services";
-      }
-      function showClients() {
-        document.querySelector("body").className = "page-clients";
       }
       function showConnect() {
         document.querySelector("body").className = "page-connect";
