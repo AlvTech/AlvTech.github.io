@@ -12,7 +12,6 @@ body {
 }
 
 .page-connect,
-.page-clients,
 .page-services,
 .page-about {
   brand name {
@@ -27,7 +26,6 @@ body {
 }
 
 .page-connect connect,
-.page-clients clients,
 .page-services services,
 .page-about message {
   display: block;
@@ -35,7 +33,6 @@ body {
 }
 
 services,
-clients,
 message {
   display: none;
   opacity: 0;
