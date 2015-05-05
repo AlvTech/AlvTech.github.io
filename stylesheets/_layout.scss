@@ -32,6 +32,15 @@ body {
   opacity: 1;
 }
 
+.page-connect connect {
+  display: flex;
+
+  form,
+  address {
+    flex: 1;
+  }
+}
+
 services,
 message {
   display: none;
