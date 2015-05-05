@@ -69,6 +69,17 @@ body {
     -webkit-flex: 1;
         -ms-flex: 1;
             flex: 1; }
+            
+  .page-services services {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex; }
+  .page-services services concept, .page-services services other {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+        -ms-flex: 1;
+            flex: 1; }
 
 services, message {
   display: none;
