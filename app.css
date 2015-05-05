@@ -65,10 +65,10 @@ body {
   display: -ms-flexbox;
   display: flex; }
   .page-connect connect form, .page-connect connect address {
-    -webkit-box-flex: 1.5;
-    -webkit-flex: 1.5;
-        -ms-flex: 1.5;
-            flex: 1.5; }
+    -webkit-box-flex: 3.5;
+    -webkit-flex: 3.5;
+        -ms-flex: 3.5;
+            flex: 3.5; }
 
 services, message {
   display: none;
