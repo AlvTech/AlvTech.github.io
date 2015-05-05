@@ -76,6 +76,17 @@ services, message {
   -webkit-transition: .3s;
           transition: .3s; }
 
+service-list {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex; }
+  service-list stratergy, service-list partners {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+        -ms-flex: 1;
+            flex: 1; }
+
 p {
   font-size: 1.3rem; }
 
