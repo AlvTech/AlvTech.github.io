@@ -88,13 +88,13 @@ service-list {
             flex: 1; }
 
 p {
-  font-size: 1.3rem; }
+  font-size: 1.1rem; }
 
 brand {
   height: 85%; }
   brand > name {
     display: block;
-    font-size: 8vmax;
+    font-size: 7vmax;
     padding-top: 20%;
     -webkit-transition: .3s;
             transition: .3s; }
