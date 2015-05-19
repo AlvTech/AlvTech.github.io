@@ -13,6 +13,7 @@
   <nav>
     <ul>
       <li id="about">About</li>
+      <li id="sectors">About</li>
       <li id="services">Services</li>
       <li id="connect">Connect</li>
     </ul>
@@ -38,6 +39,18 @@
       services, yielding our clients stronger returns and leveraging them with a powerful competitive edge.</p>
      
     </message>
+    
+    <sectors>
+      <p>Areas of expertise:</p>
+       <p>Hotel & Resort Retail </p>
+       <p>We partner with hotels to develop and manage their retail projects. Providing tailored retail strategy to strengthen 
+       sales and channel effectiveness, and regulate operations through critical path optimisation.</p>
+       <p>Brand Retail</p>
+       <p>We work with lifestyle and fashion brands to help them improve business performance through their existing retail 
+       outlet or through store roll-out.  We evaluate and advise brands on international expansion by strategising a detailed 
+       market entry road map.</p>
+    </sectors>
+    
     <services>
       
       <p>Älv provides a high-calibre workforce combined with a cost-effective way for our clients to identify 
@@ -96,6 +109,8 @@
       function init() {
         var about = document.querySelector("#about");
         about.onclick = showAbout;
+        var sectors = document.querySelector("#sectors");
+        sectors.onclick = showSectors;
         var services = document.querySelector("#services");
         services.onclick = showServices;
         var connect = document.querySelector("#connect");
@@ -106,6 +121,9 @@
       function showAbout() {
         document.querySelector("body").className = "page-about";
       }
+      function showSectors() {
+        document.querySelector("body").className = "page-sectors";
+      } 
       function showServices() {
         document.querySelector("body").className = "page-services";
       }
