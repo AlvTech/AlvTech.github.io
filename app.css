@@ -48,14 +48,14 @@ html, body {
 body {
   margin: 0 20%; }
 
-.page-connect brand name, .page-services brand name, .page-about brand name {
+.page-connect brand name, .page-services brand name, .page-sectors brand name, .page-about brand name {
   cursor: pointer;
   font-size: 2rem;
   padding-top: 0; }
-  .page-connect brand name info, .page-services brand name info, .page-about brand name info {
+  .page-connect brand name info, .page-services brand name info, .page-sectors brand name info, .page-about brand name info {
     display: none; }
 
-.page-connect connect, .page-services services, .page-about message {
+.page-connect connect, .page-services services, .page-sectors sectors, .page-about message {
   display: block;
   opacity: 1; }
 
