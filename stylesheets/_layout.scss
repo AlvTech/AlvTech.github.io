@@ -44,7 +44,8 @@ body {
 }
 
 services,
-message {
+message,
+sectors {
   display: none;
   opacity: 0;
   transition: .3s;
@@ -52,7 +53,7 @@ message {
 
 service-list {
   display: flex;
-  
+
   stratergy,
   partners {
     flex: 1;
