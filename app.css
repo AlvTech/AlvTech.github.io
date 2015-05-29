@@ -5,7 +5,9 @@ html {
   font-size: 100%; }
 
 button, input[type=submit] {
-  appearance: none;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
   background-color: #e6e6e6;
   border: 2px solid #121212;
   border-radius: 2px;
