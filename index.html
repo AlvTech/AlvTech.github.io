@@ -13,7 +13,6 @@
   <nav>
     <ul>
       <li id="about">About</li>
-      <li id="sectors">Sectors</li>
       <li id="services">Services</li>
       <li id="connect">Connect</li>
     </ul>
@@ -24,7 +23,7 @@
     </name>
     <message>
       
-      <p>Älv is a retail consultancy and management firm specialising in jewellery and luxury goods. Aiding companies 
+      <p>Älv is a retail consultancy and management firm specialising in jewellery and luxury fashion. Aiding companies 
       to accelerate their business growth, we are committed towards delivering directional concepts and effectual solutions.</p>
       <p>The efficacy of our strategic analysis model and examined approach is where our strength lies. Our credo is to go 
       beyond research and strategy – to not only include extensive assessments of consumer behaviour, market intelligence, 
@@ -37,19 +36,6 @@
       services, leveraging our clients with a powerful competitive edge.</p>
      
     </message>
-    
-    <sectors>
-      
-      <p>Distribution & Export</p>
-       <p>We help our brand partners to maximize their business performance and gain a strong market foothold.
-       Evaluating and providing strategic advice on international expansion through an effective market entry road map.</p>
-      
-      <p>Hotel & Resort Retail </p>
-       <p>We partner with properties to develop and reinvent their gift shops to yield stronger returns for their retail space. 
-       Employing tailored retail strategy to strengthen sales and channel effectiveness; and regulate operations through 
-       critical path optimisation.</p>
-       
-    </sectors>
     
     <services>
       
@@ -101,8 +87,6 @@
       function init() {
         var about = document.querySelector("#about");
         about.onclick = showAbout;
-        var sectors = document.querySelector("#sectors");
-        sectors.onclick = showSectors;
         var services = document.querySelector("#services");
         services.onclick = showServices;
         var connect = document.querySelector("#connect");
@@ -113,9 +97,6 @@
       function showAbout() {
         document.querySelector("body").className = "page-about";
       }
-      function showSectors() {
-        document.querySelector("body").className = "page-sectors";
-      } 
       function showServices() {
         document.querySelector("body").className = "page-services";
       }
