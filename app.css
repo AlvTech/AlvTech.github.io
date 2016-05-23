@@ -48,7 +48,7 @@ html, body {
   height: 100%; }
 
 body {
-  margin: 0 20%; }
+  margin: 0 10%; }
 
 .page-connect brand name, .page-services brand name, .page-sectors brand name, .page-about brand name {
   cursor: pointer;
@@ -63,7 +63,6 @@ body {
 
 .page-connect connect form, .page-connect connect address {
   -webkit-box-flex: 1;
-  -webkit-flex: 1;
       -ms-flex: 1;
           flex: 1; }
 
@@ -75,12 +74,10 @@ services, message, sectors {
 
 service-list {
   display: -webkit-box;
-  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex; }
   service-list stratergy, service-list partners {
     -webkit-box-flex: 1;
-    -webkit-flex: 1;
         -ms-flex: 1;
             flex: 1; }
 
@@ -109,11 +106,9 @@ nav {
   padding-top: 20px; }
   nav ul {
     display: -webkit-box;
-    display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: end;
-    -webkit-justify-content: flex-end;
         -ms-flex-pack: end;
             justify-content: flex-end;
     list-style: none; }
