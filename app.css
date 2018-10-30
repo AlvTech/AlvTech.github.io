@@ -36,7 +36,7 @@ input, textarea {
   border: 1px solid #121212;
   border-radius: 2px;
   margin-bottom: 15px;
-  padding: 6px; }
+  padding: 6px 60px; }
 
 input:focus, textarea:focus {
   outline: 0; }
